@@ -261,6 +261,10 @@
     line-height: 99px;
   }
 
+  .section__items--vertical-tablet {
+    grid-template-columns: 1fr;
+  }
+
   .pictures-section__pictures {
     grid-template-rows: 192px 230px 318px;
   }
