@@ -180,11 +180,6 @@
   gap: 20px;
 }
 
-.what-section__items > div {
-  flex: 1;
-  min-width: 0;
-}
-
 .how-section {
   grid-template-columns: 1fr 2fr;
 }
@@ -316,6 +311,7 @@
 
   .header__title {
     margin-block-start: 65px;
+    margin-inline-start: 10px;
     line-height: 95.7px;
   }
 
@@ -360,6 +356,10 @@
 
   .how-section {
     grid-template-columns: 1fr;
+  }
+
+  .pictures-section {
+    gap: 10px;
   }
 
   .pictures-section__pictures {
