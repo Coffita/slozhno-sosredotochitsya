@@ -24,7 +24,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .page.theme_auto {
+  .page:not(.theme_light) {
     --bg-color: #000028;
     --bg-image: url(../images/cover-image-dark.png);
     --title-decor-color: #db00ff;
