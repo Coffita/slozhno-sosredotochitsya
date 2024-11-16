@@ -10,3 +10,33 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root .page.theme_dark {
+  --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+  --title-decor-color: #db00ff;
+  --accent-color: #ff0070;
+  --secondary-title-color: #000028;
+  --outline-color: #ff0070;
+  --text-color: #f1b2ce;
+  --section-title-color: #ff0070;
+  --header-button-color: #ff0070;
+  --header-button-hover-color: #ff007066;
+  --decorated-zone-color: #ff0070;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root .page.theme_auto {
+    --bg-color: #000028;
+    --bg-image: url(../images/cover-image-dark.png);
+    --title-decor-color: #db00ff;
+    --accent-color: #ff0070;
+    --secondary-title-color: #000028;
+    --outline-color: #ff0070;
+    --text-color: #f1b2ce;
+    --section-title-color: #ff0070;
+    --header-button-color: #ff0070;
+    --header-button-hover-color: #ff007066;
+    --decorated-zone-color: #ff0070;
+  }
+}
