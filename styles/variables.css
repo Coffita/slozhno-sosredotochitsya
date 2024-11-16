@@ -4,15 +4,15 @@
 */
 
 :root {
-  --bg-color: #000028;
-  --bg-image: url(../images/cover-image-dark.png);
-  --title-decor-color: #db00ff;
-  --accent-color: #ff0070;
-  --secondary-title-color: #000028;
-  --outline-color: #ff0070;
-  --text-color: #f1b2ce;
-  --section-title-color: #ff0070;
-  --header-button-color: #ff0070;
-  --header-button-hover-color: #ff007066;
-  --decorated-zone-color: #ff0070;
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
+  --title-decor-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --secondary-title-color: #353430;
+  --outline-color: #353430;
+  --text-color: #353430;
+  --section-title-color: #353430;
+  --header-button-color: #353430;
+  --header-button-hover-color: #32312d66;
+  --decorated-zone-color: #353430;
 }
